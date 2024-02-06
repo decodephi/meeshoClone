@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping Site for Fashion, Electronics, Home & More | Meesho</title>
+    <!--fevicon icon-->
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/8/80/Meesho_Logo_Full.png" />
+    <link rel="stylesheet" href="style.css" />
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <!--Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="headerLeft">
+            <div class="logoContainer">
+                <img src="meesho-img/meesho.png" />
+            </div>
+
+            <!--seach box-->
+            <div class="searchInputContainer">
+                <div class="searchIcon">
+                    <img src="/meesho/meesho-img/search_FILL0_wght400_GRAD0_opsz24.svg" />
+                </div>
+                <form action="" id="inputForm">
+                    <input type="text" placeholder="Try Saree, Kurti or Search by Product Code" class="inputSearch" />
+                </form>
+                <div class="inputCloseSearch">
+                    <img class="closeSearch" src="meesho-img/close.png" alt="">
+                </div>
+
+                <div class="searchRecentModal">
+                    <h3>Recent Searches</h3>
+                    <div class="listofRecent">
+                        <div class="recentIcon">
+                           <img src="meesho-img/repeat.png" alt="">
+                           
+                        </div>
+                        <p>Gamchha</p>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="headerRight">
+            <div class="downloadContainer">
+                <div class="mobileIcon">
+                    <img src="meesho-img/mobile-phone.png" />
+                </div>
+                <p>Download App</p>
+
+                <div class="downloadHoverBtnContainer">
+                    <h3>Download From</h3>
+
+                    <a href="" class="downloadBtn">
+                        <img src="https://images.meesho.com/images/pow/playstore-icon-big.webp" />
+                    </a>
+                    <a href="" class="downloadBtn">
+                        <img src="https://images.meesho.com/images/pow/appstore-icon-big.webp" />
+                    </a>
+                </div>
+            </div>
+
+            <div class="becomeSupplierContainer">
+                <p>Become a Supplier</p>
+            </div>
+
+            <div class="becomeNewsroom">
+                <p>Newsroom</p>
+            </div>
+
+            <div class="profileAndCart">
+                <div class="profileContainer">
+                    <div class="profileIcon">
+                        <img src="meesho-img/user.png" />
+                    </div>
+                    <p>Profile</p>
+                    <!-- <div class="subMenu-profile">
+                        <h2>Hello User</h2>
+                        <p>To access your Meesho account</p>
+                        <button class="sign-up">Sign Up</button>
+                        <hr>
+                        <div>
+                            <img src="" alt="">
+                            <h2>My Order</h2>
+                        </div>
+                    </div> -->
+                </div>
+
+                <div class="CartContainer">
+                    <div class="CartIcon">
+                        <img src="meesho-img/shopping-cart.png" />
+                    </div>
+                    <p>Cart</p>
+                </div>
+
+            </div>
+
+        </div>
+    </header>
+
+    <!--navigation-->
+    <nav>
+        <ul>
+            <li>
+                Women Ethnic
+                <div class="subMenu">
+                    <div id="womenEthic" class="submenuList">
+                        <div class="women-ethic-inside one">
+                            <h2 class="top-hading">Women Ethnic</h2>
+                            <p>View All</p>
+                        </div>
+                        <div class="women-ethic-inside">
+                            <h2 class="top-hading">Sarees</h2>
+                            <a href=""><p>All Sarees</p></a>
+                            <a href=""><p>Silk Sarees</p></a>
+                            <a href=""><p>Cotton Silk Sarees</p> </a>
+                            <a href=""><p>Cotton Sarees</p></a>
+                            <a href=""><p>Chiffon Sarees</p></a>
+                             
+                        </div>
+                        <div class="women-ethic-inside">
+                            <h2 class="top-hading">Kurtis</h2>
+                            <a href=""><p>All Kurtis</p></a>
+                            <a href=""><p>Anarkali Kurtis</p> </a>
+                            <a href=""><p>Cotton Kurtis</p></a>
+                            <a href=""><p>Embroidered Kurtis</p></a>
+                               
+                        </div>
+                        <div class="women-ethic-inside">
+                            <h2 class="top-hading">Kurta Sets</h2>
+                            <a href=""><p>All Kurta Sets</p> </a>
+                         
+                        </div>
+                        <div class="women-ethic-inside">
+                            <h2 class="top-hading">Suits & Dress Material</h2>
+                            <a href=""><p>All Suits & Dress Material</p></a>
+                            <a href=""><p>Cotton Suits</p></a>
+                            <a href=""><p>Embroidered Suits</p></a>                           
+                            <a href=""><p>Chanderi Suits</p></a>    
+                        </div>
+                        <div class="women-ethic-inside">
+                            <h2 class="top-hading">Other Ethnic</h2>
+                            <a href=""><p> Blouses</p></a>
+                            <a href=""><p>Dupattas</p></a>
+                            <a href=""><p>Gown</p></a>                           
+                            <a href=""><p>Ethnic Bottomwear</p></a>    
+                        </div>
+
+                    </div>
+                </div>
+            </li>
+            <li>
+             Women Western
+                <div class="subMenu">
+                    <div id="womenWestern" class="submenuList">
+                        <div class="women-ethic-inside one">
+                            <h2 class="top-hading">Women Western</h2>
+                            <p>View All</p>
+                        </div>
+                        <div class="women-ethic-inside">
+                            <h2 class="top-hading">Topware</h2>
+                            <a href=""><p>Tops</p></a>
+                            <a href=""><p>Dresses</p></a>
+                            <a href=""><p>Sweaters</p> </a>
+                            <a href=""><p>Jumpsuits</p></a>
+                             
+                        </div>
+                        <div class="women-ethic-inside">
+                            <h2 class="top-hading">Bottomwear</h2>
+                            <a href=""><p>Jeans</p></a>
+                            <a href=""><p>Jagings</p> </a>
+                            <a href=""><p>Palazzos</p></a>
+                            <a href=""><p>Shorts</p></a>
+                            <a href=""><p>Skirts</p></a>    
+                        </div>
+                        <div class="women-ethic-inside">
+                            <h2 class="top-hading">Innnerwear</h2>
+                            <a href=""><p>Bra</p> </a>
+                            <a href=""><p>Briefs</p></a>
+                         
+                        </div>
+                        <div class="women-ethic-inside">
+                            <h2 class="top-hading">Sleepwear</h2>
+                            <a href=""><p>Nightsults</p></a>
+                            <a href=""><p>Bodydolls</p></a>
+                               
+                        </div>
+                       
+
+                    </div>
+
+                </div>
+            </li>
+            <li>Men
+                <div class="subMenu">
+                    <div id="men" class="submenuList">
+                        <div class="women-ethic-inside one">
+                            <h2 class="top-hading">Women Western</h2>
+                            <p>View All</p>
+                        </div>
+                        <div class="women-ethic-inside">
+                            <h2 class="top-hading">Topware</h2>
+                            <a href=""><p>Tops</p></a>
+                            <a href=""><p>Dresses</p></a>
+                            <a href=""><p>Sweaters</p> </a>
+                            <a href=""><p>Jumpsuits</p></a>
+                             
+                        </div>
+                        <div class="women-ethic-inside">
+                            <h2 class="top-hading">Bottomwear</h2>
+                            <a href=""><p>Jeans</p></a>
+                            <a href=""><p>Jagings</p> </a>
+                            <a href=""><p>Palazzos</p></a>
+                            <a href=""><p>Shorts</p></a>
+                            <a href=""><p>Skirts</p></a>    
+                        </div>
+                        <div class="women-ethic-inside">
+                            <h2 class="top-hading">Innnerwear</h2>
+                            <a href=""><p>Bra</p> </a>
+                            <a href=""><p>Briefs</p></a>
+                         
+                        </div>
+                        <div class="women-ethic-inside">
+                            <h2 class="top-hading">Sleepwear</h2>
+                            <a href=""><p>Nightsults</p></a>
+                            <a href=""><p>Bodydolls</p></a>
+                               
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>Kids
+                <div class="subMenu">
+                    <div id="kids" class="submenuList">
+                        <div class="women-ethic-inside one">
+                            <h2 class="top-hading">Women Western</h2>
+                            <p>View All</p>
+                        </div>
+                        <div class="women-ethic-inside">
+                            <h2 class="top-hading">Topware</h2>
+                            <a href=""><p>Tops</p></a>
+                            <a href=""><p>Dresses</p></a>
+                            <a href=""><p>Sweaters</p> </a>
+                            <a href=""><p>Jumpsuits</p></a>
+                             
+                        </div>
+                        <div class="women-ethic-inside">
+                            <h2 class="top-hading">Bottomwear</h2>
+                            <a href=""><p>Jeans</p></a>
+                            <a href=""><p>Jagings</p> </a>
+                            <a href=""><p>Palazzos</p></a>
+                            <a href=""><p>Shorts</p></a>
+                            <a href=""><p>Skirts</p></a>    
+                        </div>
+                        <div class="women-ethic-inside">
+                            <h2 class="top-hading">Innnerwear</h2>
+                            <a href=""><p>Bra</p> </a>
+                            <a href=""><p>Briefs</p></a>
+                         
+                        </div>
+                        <div class="women-ethic-inside">
+                            <h2 class="top-hading">Sleepwear</h2>
+                            <a href=""><p>Nightsults</p></a>
+                            <a href=""><p>Bodydolls</p></a>
+                               
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>Home & Kitchen
+                <div class="subMenu">
+                    <div id="HomeAndKitchen" class="submenuList">
+                        <div class="women-ethic-inside one">
+                            <h2 class="top-hading">Home & Kitchen</h2>
+                            <p>View All</p>
+                        </div>
+                        <div class="women-ethic-inside">
+                            <h2 class="top-hading">Home Furnishing</h2>
+                            <a href=""><p>Tops</p></a>
+                            <a href=""><p>Dresses</p></a>
+                            <a href=""><p>Sweaters</p> </a>
+                            <a href=""><p>Jumpsuits</p></a>
+                             
+                        </div>
+                        <div class="women-ethic-inside">
+                            <h2 class="top-hading">Home Decor</h2>
+                            <a href=""><p>Jeans</p></a>
+                            <a href=""><p>Jagings</p> </a>
+                            <a href=""><p>Palazzos</p></a>
+                            <a href=""><p>Shorts</p></a>
+                            <a href=""><p>Skirts</p></a>    
+                        </div>
+                        <div class="women-ethic-inside">
+                            <h2 class="top-hading">Kitchen & Dining</h2>
+                            <a href=""><p>Bra</p> </a>
+                            <a href=""><p>Briefs</p></a>
+                         
+                        </div>
+
+                    </div>
+                </div>
+            </li>
+            <li>Beauty & Health
+                <div class="subMenu">
+                    <div id="beautyAndHealth" class="submenuList">
+                        <div class="women-ethic-inside one">
+                            <h2 class="top-hading">Women Western</h2>
+                            <p>View All</p>
+                        </div>
+                        <div class="women-ethic-inside">
+                            <h2 class="top-hading">Topware</h2>
+                            <a href=""><p>Tops</p></a>
+                            <a href=""><p>Dresses</p></a>
+                            <a href=""><p>Sweaters</p> </a>
+                            <a href=""><p>Jumpsuits</p></a>
+                             
+                        </div>
+                        <div class="women-ethic-inside">
+                            <h2 class="top-hading">Bottomwear</h2>
+                            <a href=""><p>Jeans</p></a>
+                            <a href=""><p>Jagings</p> </a>
+                            <a href=""><p>Palazzos</p></a>
+                            <a href=""><p>Shorts</p></a>
+                            <a href=""><p>Skirts</p></a>    
+                        </div>
+                        <div class="women-ethic-inside">
+                            <h2 class="top-hading">Innnerwear</h2>
+                            <a href=""><p>Bra</p> </a>
+                            <a href=""><p>Briefs</p></a>
+                         
+                        </div>
+                        <div class="women-ethic-inside">
+                            <h2 class="top-hading">Sleepwear</h2>
+                            <a href=""><p>Nightsults</p></a>
+                            <a href=""><p>Bodydolls</p></a>
+                               
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>Jewellery & Accessories
+                <div class="subMenu">
+                    <div id="JewelleryAndAccessories" class="submenuList">
+                        <div class="women-ethic-inside one">
+                            <h2 class="top-hading">Women Western</h2>
+                            <p>View All</p>
+                        </div>
+                        <div class="women-ethic-inside">
+                            <h2 class="top-hading">Topware</h2>
+                            <a href=""><p>Tops</p></a>
+                            <a href=""><p>Dresses</p></a>
+                            <a href=""><p>Sweaters</p> </a>
+                            <a href=""><p>Jumpsuits</p></a>
+                             
+                        </div>
+                        <div class="women-ethic-inside">
+                            <h2 class="top-hading">Bottomwear</h2>
+                            <a href=""><p>Jeans</p></a>
+                            <a href=""><p>Jagings</p> </a>
+                            <a href=""><p>Palazzos</p></a>
+                            <a href=""><p>Shorts</p></a>
+                            <a href=""><p>Skirts</p></a>    
+                        </div>
+                        <div class="women-ethic-inside">
+                            <h2 class="top-hading">Innnerwear</h2>
+                            <a href=""><p>Bra</p> </a>
+                            <a href=""><p>Briefs</p></a>
+                         
+                        </div>
+                        <div class="women-ethic-inside">
+                            <h2 class="top-hading">Sleepwear</h2>
+                            <a href=""><p>Nightsults</p></a>
+                            <a href=""><p>Bodydolls</p></a>
+                               
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>Bags & Footwear
+                <div class="subMenu">
+                    <div id="BagsFootWarId" class="submenuList">
+                        <div class="women-ethic-inside one">
+                            <h2 class="top-hading">Bags & Footwear</h2>
+                            <p>View All</p>
+                        </div>
+                        <div class="women-ethic-inside">
+                            <h2 class="top-hading"> Women Bags</h2>
+                            <a href=""><p>All Women Bags</p></a>
+                            <a href=""><p>Handbags</p></a>
+                            <a href=""><p>Clutches</p> </a>
+                            <a href=""><p>Slingbags</p></a>
+                             
+                        </div>
+                        <div class="women-ethic-inside">
+                            <h2 class="top-hading">Men Bags</h2>
+                            <a href=""><p>Jeans</p></a>
+                            <a href=""><p>Jagings</p> </a>
+                            <a href=""><p>Palazzos</p></a>
+                            <a href=""><p>Shorts</p></a>
+                            <a href=""><p>Skirts</p></a>    
+                        </div>
+                        <div class="women-ethic-inside">
+                            <h2 class="top-hading">Men Footwear</h2>
+                            <a href=""><p>Bra</p> </a>
+                            <a href=""><p>Briefs</p></a>
+                         
+                        </div>
+                        <div class="women-ethic-inside">
+                            <h2 class="top-hading">Women Footwear</h2>
+                            <a href=""><p>Nightsults</p></a>
+                            <a href=""><p>Bodydolls</p></a>
+                               
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>Electronics
+                <div class="subMenu">
+                    <div id="ElectronicsId" class="submenuList">
+                        <div class="women-ethic-inside one">
+                            <h2 class="top-hading">Electronics</h2>
+                            <p>View All</p>
+                        </div>
+                        <div class="women-ethic-inside">
+                            <h2 class="top-hading">Mobile & Accessories</h2>
+                            <a href=""><p>All Mobile & Accessories</p></a>
+                            <a href=""><p>Smartwatches</p></a>
+                            <a href=""><p>Mobile Holders</p> </a>
+                            <a href=""><p>Mobile cases and covers</p></a>
+                             
+                        </div>
+                        <div class="women-ethic-inside">
+                            <h2 class="top-hading">Appliances</h2>
+                            <a href=""><p>All Appliances</p></a>
+                            <a href=""><p>Grooming</p> </a>
+                            <a href=""><p>Home Appliances</p></a>
+                              
+                        </div>
+
+                    </div>
+                </div>
+            </li>
+        </ul>
+
+    </nav>
+
+    <!--lowest prices-->
+    <div class="lowestpriceContainer">
+        <div class="lowestPrice_text">
+            <h1>Lowest Prices </h1>
+            <h1>Best Quality Shopping</h1>
+            <div class="lowestPriceWhay">
+                <div class="lowestPriceItem">
+                    <div class="lowestPrice_icon">
+                        <img src="https://images.meesho.com/images/pow/freeDelivery_jamun.svg" />
+                    </div>
+                    <p>Free Delivery</p>
+                </div>
+
+                <div class="lowestPriceItem">
+                    <div class="lowestPrice_icon">
+                        <img src="https://images.meesho.com/images/pow/cod_jamun.svg" />
+                    </div>
+                    <p>Cash on Delivery</p>
+                </div>
+                <div class="lowestPriceItem">
+                    <div class="lowestPrice_icon">
+                        <img src="https://images.meesho.com/images/pow/easyReturns_jamun.svg" />
+                    </div>
+                    <p>Easy Returns</p>
+                </div>
+            </div>
+
+            <button class="downloadApp_contianer">
+                <div class="downloadAppIcon">
+                    <img src="https://images.meesho.com/images/pow/playstoreSmallIcon.webp" />
+                </div>
+                <p>Download the Meesho App</p>
+            </button>
+
+        </div>
+        <div class="lowestPrice_image">
+            <img src="meesho-img/rasmika-meesho.webp" />
+        </div>
+    </div>
+
+
+    <!--Top Categories to choose from-->
+    <div class="topCategoriesFrom">
+        <div class="topCategoriesHeading">
+            <span class="horizontalLine"></span>
+            <h1>Top Categories to choose from</h1>
+            <span class="horizontalLine"></span>
+        </div>
+        <div class="topCategoreisImage">
+            <img src="https://images.meesho.com/images/marketing/1649760442043.webp" />
+            <img src="https://images.meesho.com/images/marketing/1649760423313.webp" />
+            <img src="https://images.meesho.com/images/marketing/1649759799809.webp" />
+        </div>
+
+        <div class="essentialContaienr">
+            <img src="" class="essen-btn" />
+
+            <div class="essential_item">
+                <img src="https://images.meesho.com/images/marketing/1649760808952.webp" />
+                <img src="https://images.meesho.com/images/marketing/1664364866805.webp" />
+            </div>
+
+            <div class="essential_item">
+                <img src="https://images.meesho.com/images/marketing/1649760703179.webp" />
+                <img src="https://images.meesho.com/images/marketing/1664364917657.webp" />
+            </div>
+
+            <div class="essential_item">
+                <img src="https://images.meesho.com/images/marketing/1649760786763.webp" />
+                <img src="https://images.meesho.com/images/marketing/1664364898513.webp" />
+            </div>
+
+        </div>
+
+
+        <div class="becomesellerBanner_Container">
+            <img src="https://images.meesho.com/images/pow/downloadBannerDesktop.webp" class="becomesellerBanner" />
+            <div class="becomeSeller_Content">
+                <div class="becomeSeller_content_content">
+                    <h2>Become a Seller and </h2>
+                    <h1>Start your Online Business
+                        with Zero Investment</h1>
+                    <div class=" becomerSeller_appDownload_container">
+                        <a href="#" class="becomerSeller_appDownload">
+                            <img src="https://images.meesho.com/images/pow/playstoreIcon.webp" />
+                        </a>
+                        <a href="#" class="becomerSeller_appDownload">
+                            <img src="https://images.meesho.com/images/pow/appstoreIcon.webp" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="meesho_supper_container">
+            <img src="https://images.meesho.com/images/pow/supplyBannerDesktop.webp" />
+            <div class="meesho_supper_container_content">
+                <div class="meesho_supper_container_content_content">
+                    <h1>Register as a Meesho Supplier</h1>
+                    <p>Sell your products to crores of customers at 0% commission</p>
+                    <div class="meesho-suppliear_benifit_container">
+                        <div class="meesho_supper_benifit">
+                            <img class="meeesho_benifit_image"
+                                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjEiIHZpZXdCb3g9IjAgMCAyMCAyMSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0wIDEwLjVDMCA0Ljk4IDQuNDggMC41IDEwIDAuNUMxNS41MiAwLjUgMjAgNC45OCAyMCAxMC41QzIwIDE2LjAyIDE1LjUyIDIwLjUgMTAgMjAuNUM0LjQ4IDIwLjUgMCAxNi4wMiAwIDEwLjVaTTcuMjgyODggMTQuNzkyNUM3LjY3Mjg4IDE1LjE4MjUgOC4zMDI4OCAxNS4xODI1IDguNjkyODggMTQuNzkyNUwxNi4yNzI5IDcuMjAyNUMxNi42NjI5IDYuODEyNSAxNi42NjI5IDYuMTgyNSAxNi4yNzI5IDUuNzkyNUMxNS44ODI5IDUuNDAyNSAxNS4yNTI5IDUuNDAyNSAxNC44NjI5IDUuNzkyNUw3Ljk4Mjg4IDEyLjY3MjVMNS4xMDI4OCA5Ljc5MjVDNC43MTI4OCA5LjQwMjUgNC4wODI4OCA5LjQwMjUgMy42OTI4OCA5Ljc5MjVDMy41MDU2MiA5Ljk3OTMzIDMuNDAwMzkgMTAuMjMzIDMuNDAwMzkgMTAuNDk3NUMzLjQwMDM5IDEwLjc2MiAzLjUwNTYyIDExLjAxNTcgMy42OTI4OCAxMS4yMDI1TDcuMjgyODggMTQuNzkyNVoiIGZpbGw9IiMwNkE3NTkiLz4KPC9zdmc+Cg==" />
+                            <p>Grow your business 10x</p>
+                        </div>
+                        <div class="meesho_supper_benifit">
+                            <img class="meeesho_benifit_image"
+                                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjEiIHZpZXdCb3g9IjAgMCAyMCAyMSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0wIDEwLjVDMCA0Ljk4IDQuNDggMC41IDEwIDAuNUMxNS41MiAwLjUgMjAgNC45OCAyMCAxMC41QzIwIDE2LjAyIDE1LjUyIDIwLjUgMTAgMjAuNUM0LjQ4IDIwLjUgMCAxNi4wMiAwIDEwLjVaTTcuMjgyODggMTQuNzkyNUM3LjY3Mjg4IDE1LjE4MjUgOC4zMDI4OCAxNS4xODI1IDguNjkyODggMTQuNzkyNUwxNi4yNzI5IDcuMjAyNUMxNi42NjI5IDYuODEyNSAxNi42NjI5IDYuMTgyNSAxNi4yNzI5IDUuNzkyNUMxNS44ODI5IDUuNDAyNSAxNS4yNTI5IDUuNDAyNSAxNC44NjI5IDUuNzkyNUw3Ljk4Mjg4IDEyLjY3MjVMNS4xMDI4OCA5Ljc5MjVDNC43MTI4OCA5LjQwMjUgNC4wODI4OCA5LjQwMjUgMy42OTI4OCA5Ljc5MjVDMy41MDU2MiA5Ljk3OTMzIDMuNDAwMzkgMTAuMjMzIDMuNDAwMzkgMTAuNDk3NUMzLjQwMDM5IDEwLjc2MiAzLjUwNTYyIDExLjAxNTcgMy42OTI4OCAxMS4yMDI1TDcuMjgyODggMTQuNzkyNVoiIGZpbGw9IiMwNkE3NTkiLz4KPC9zdmc+Cg==" />
+                            <p>Enjoy 100% Profit</p>
+                        </div>
+                        <div class="meesho_supper_benifit">
+                            <img class="meeesho_benifit_image"
+                                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjEiIHZpZXdCb3g9IjAgMCAyMCAyMSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0wIDEwLjVDMCA0Ljk4IDQuNDggMC41IDEwIDAuNUMxNS41MiAwLjUgMjAgNC45OCAyMCAxMC41QzIwIDE2LjAyIDE1LjUyIDIwLjUgMTAgMjAuNUM0LjQ4IDIwLjUgMCAxNi4wMiAwIDEwLjVaTTcuMjgyODggMTQuNzkyNUM3LjY3Mjg4IDE1LjE4MjUgOC4zMDI4OCAxNS4xODI1IDguNjkyODggMTQuNzkyNUwxNi4yNzI5IDcuMjAyNUMxNi42NjI5IDYuODEyNSAxNi42NjI5IDYuMTgyNSAxNi4yNzI5IDUuNzkyNUMxNS44ODI5IDUuNDAyNSAxNS4yNTI5IDUuNDAyNSAxNC44NjI5IDUuNzkyNUw3Ljk4Mjg4IDEyLjY3MjVMNS4xMDI4OCA5Ljc5MjVDNC43MTI4OCA5LjQwMjUgNC4wODI4OCA5LjQwMjUgMy42OTI4OCA5Ljc5MjVDMy41MDU2MiA5Ljk3OTMzIDMuNDAwMzkgMTAuMjMzIDMuNDAwMzkgMTAuNDk3NUMzLjQwMDM5IDEwLjc2MiAzLjUwNTYyIDExLjAxNTcgMy42OTI4OCAxMS4yMDI1TDcuMjgyODggMTQuNzkyNVoiIGZpbGw9IiMwNkE3NTkiLz4KPC9zdmc+Cg==" />
+                            <p>Sell all over India</p>
+                        </div>
+                    </div>
+                    <a href="#" class="signup_btn_now">Sign up now</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!--Products For You-->
+    <!-- <div class="Product_container_You">
+        <h1 >Products For You</h1>
+        <div class="product_container_you_content">
+            <aside class="product_category_you_aside">
+                <h3>Category</h3>
+                <div class="search_category_input">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Search"/>
+                </div>
+                <div class="display_Category_list">
+                    <label for="bluetooth" >
+                        <input type="checkbox" id="bluetooth"/>
+                        <span>bluetooth Headset</span>
+                    </label>
+                    <label for="chains">
+                        <input type="checkbox" id="chains"/>
+                        <span>Men Chains</span>
+                    </label>
+                    <label for="kurtas">
+                        <input type="checkbox" id="kurtas"/>
+                        <span>Kurtas</span>
+                    </label>
+                    <label for="accessories">
+                        <input type="checkbox" id="accessories"/>
+                        <span>Mobile Accessories</span>
+                    </label>
+                    <label for="sarees">
+                        <input type="checkbox" id="sarees"/>
+                        <span>sarees</span>
+                    </label>
+                    <label for="watch">
+                        <input type="checkbox" id="watch"/>
+                        <span>watch</span>
+                    </label>
+                </div>
+                
+            </aside>
+            <main class="product_category_display" id="product_category_displayId">
+                
+            </main>
+        </div>
+    </div> -->
+
+
+
+
+
+
+    <script src="script.js" type="module"></script>
+</body>
+
+</html>
